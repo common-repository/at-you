@@ -1,0 +1,166 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: @You\n"
+"POT-Creation-Date: 2014-03-21 20:01+0800\n"
+"PO-Revision-Date: 2014-03-21 20:01+0800\n"
+"Last-Translator: Arefly <eflyjason@gmail.com>\n"
+"Language-Team: Arefly <eflyjason@gmail.com>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: at-you.php:48
+msgid "Settings"
+msgstr "設定"
+
+#: options.php:3
+msgid "You have been mentioned on %BLOG_NAME% by %COMMENT_AUTHOR%!"
+msgstr "你在「%BLOG_NAME%」被「%COMMENT_AUTHOR%」提到啦！"
+
+#: options.php:4
+msgid ""
+"Hello, <b>%BEEN_AT_AUTHOR%</b>!\n"
+"\n"
+"You have been mentioned by <b>%COMMENT_AUTHOR%</b> in <i>%POST_NAME%</i> of "
+"our website: \n"
+"\n"
+"<blockquote>%COMMENT_CONTENT%</blockquote>\n"
+"\n"
+"You can <a href=\"%COMMENT_LINK%\" target=\"_blank\">click here</a> to see "
+"full comments.\n"
+"Welcome to <i><a href=\"%HOME_URL%\" target=\"_blank\">%BLOG_NAME%</a></i> "
+"again!"
+msgstr ""
+"您好，<b>%BEEN_AT_AUTHOR%</b>！\n"
+"\n"
+"你在文章「<i>%POST_NAME%</i>」中被「<b>%COMMENT_AUTHOR%</b>」提到了：\n"
+"\n"
+"<blockquote>%COMMENT_CONTENT%</blockquote>\n"
+"\n"
+"你可以 <a href=\"%COMMENT_LINK%\" target=\"_blank\">點擊這裏</a> 來查看完整迴"
+"響內容\n"
+"歡迎再次訪問 <i><a href=\"%HOME_URL%\" target=\"_blank\">%BLOG_NAME%</a></"
+"i> ！"
+
+#: options.php:12
+msgid "You have been mentioned in %POST_TITLE%!"
+msgstr "文章「%POST_TITLE%」提到你啦！"
+
+#: options.php:13
+msgid ""
+"Hello, <b>%BEEN_AT_AUTHOR%</b>!\n"
+"\n"
+"You have been mentioned in <i>%POST_TITLE%</i> of <b>%BLOG_NAME%</b>: \n"
+"\n"
+"<blockquote>%POST_EXCERPT%</blockquote>\n"
+"\n"
+"You can <a href=\"%POST_LINK%\" target=\"_blank\">click here</a> to see full "
+"post.\n"
+"Welcome to <i><a href=\"%HOME_URL%\" target=\"_blank\">%BLOG_NAME%</a></i> "
+"again!"
+msgstr ""
+"您好，<b>%BEEN_AT_AUTHOR%</b>！\n"
+"\n"
+"你在「<b>%BLOG_NAME%</b>」的文章「<i>%POST_TITLE%</i>」中被提到了：\n"
+"\n"
+"<blockquote>%POST_EXCERPT%</blockquote>\n"
+"\n"
+"你可以 <a href=\"%POST_LINK%\" target=\"_blank\">點擊這裏</a> 來查看完整文章"
+"內容\n"
+"歡迎再次訪問 <i><a href=\"%HOME_URL%\" target=\"_blank\">%BLOG_NAME%</a></"
+"i> ！"
+
+#: options.php:30 options.php:68
+msgid "@You Options Page"
+msgstr "@You設定頁面"
+
+#: options.php:30
+msgid "@You"
+msgstr "@You"
+
+#: options.php:37
+#, php-format
+msgid "You may use %s for blog title and %s for title of post."
+msgstr "你可以使用%s來代表部落格標題並使用%s代表文章標題"
+
+#: options.php:39
+#, php-format
+msgid "You may use %s for blog title and %s for author of comments."
+msgstr "你可以使用%s來代表部落格標題並使用%s代表迴響作者"
+
+#: options.php:43
+msgid "Tags you may use: "
+msgstr "可以使用的標籤："
+
+#: options.php:44
+#, php-format
+msgid "%s: Blog name."
+msgstr "%s：部落格標題"
+
+#: options.php:45
+#, php-format
+msgid "%s: Home URL."
+msgstr "%s：首頁網址"
+
+#: options.php:46
+#, php-format
+msgid "%s: The one who have been @'s name."
+msgstr "%s：被@的人的名稱"
+
+#: options.php:50
+#, php-format
+msgid "%s: The post's title."
+msgstr "%s：文章標題"
+
+#: options.php:51
+#, php-format
+msgid "%s: The post's content. (Less then 380 characters)"
+msgstr "%s：文章摘要（不多於380字）"
+
+#: options.php:52
+#, php-format
+msgid "%s: The post's link."
+msgstr "%s：文章鏈接"
+
+#: options.php:56
+#, php-format
+msgid "%s: The post name of the comment."
+msgstr "%s：迴響所在的文章標題"
+
+#: options.php:57
+#, php-format
+msgid "%s: The author of the comment."
+msgstr "%s：迴響作者"
+
+#: options.php:58
+#, php-format
+msgid "%s: The content of the comment."
+msgstr "%s：迴響內容"
+
+#: options.php:59
+#, php-format
+msgid "%s: The links of the comment."
+msgstr "%s：迴響鏈接"
+
+#: options.php:72
+msgid "Been @ in comments: "
+msgstr "在迴響中被@："
+
+#: options.php:74 options.php:89
+msgid "Title of the E-mail: "
+msgstr "郵件標題："
+
+#: options.php:81 options.php:96
+msgid "Content of the E-mail: "
+msgstr "郵件內容："
+
+#: options.php:87
+msgid "Been @ in post: "
+msgstr "在文章被@："
